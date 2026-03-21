@@ -279,15 +279,18 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Saito]
+  first_name: [Yu, Y.]
 
-  style: apa
+  style: ieee
   locale: en
 
   source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib
+
+  highlight_author: [Saito, Yu]
+  
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.
@@ -310,6 +313,7 @@ enable_publication_badges:
   dimensions: true # Dimensions badge (Customization options: https://badge.dimensions.ai/)
   google_scholar: true # Google Scholar badge (https://scholar.google.com/intl/en/scholar/citations.html)
   inspirehep: true # Inspire HEP badge (https://help.inspirehep.net/knowledge-base/citation-metrics/)
+  
 
 # Filter out certain bibtex entry keywords used internally from the bib output
 filtered_bibtex_keywords:
@@ -391,6 +395,26 @@ imagemagick:
 #   See https://web.dev/browser-level-image-lazy-loading/ for more information.
 lazy_loading_images: true # enables lazy loading of images (recommended)
 
+
+# -----------------------------------------------------------------------------
+# Social integration
+# -----------------------------------------------------------------------------
+
+social:
+  email: y-saito[at]kanagawa-u.ac.jp, y.saito.epr[at]gmail.com
+  # リサーチ系のID
+  orcid_id: 0000-0002-9108-4697       # ご自身の ORCID を入力
+  google_scholar_id: ecXGuwMAAAAJ     # Google Scholar のプロフィールID
+  researchgate_id: Yu-Saito
+  
+  # その他のSNS
+  github_username: ibouncer-esrepr
+  linkedin_username: 佑-yu-齋藤-saito-b537a588
+  twitter_username: Y_Saito_Bouncer
+  # x_username: your-username # 最近のバージョンならこちら
+
+
+
 # -----------------------------------------------------------------------------
 # Optional Features
 # -----------------------------------------------------------------------------
@@ -406,7 +430,7 @@ enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
 enable_tooltips: false # enables automatic tooltip links generated for each section titles on pages and posts
 enable_darkmode: true # enables switching between light/dark modes
-enable_navbar_social: false # enables displaying social links in the navbar on the about page
+enable_navbar_social: true # enables displaying social links in the navbar on the about page
 enable_project_categories: true # enables categorization of projects into multiple categories
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_progressbar: true # enables a horizontal progress bar linked to the vertical scroll position
