@@ -282,14 +282,14 @@ scholar:
   last_name: [Saito]
   first_name: [Yu, Y.]
 
-  style: ieee
+  style: nature
   locale: en
 
   source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib
 
-  highlight_author: [Saito, Yu]
+  highlight_author: [Saito, Yu, Yu Saito, Saito, Y., Y. Saito]
   
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
