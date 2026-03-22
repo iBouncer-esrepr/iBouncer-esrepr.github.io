@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-新サイト開設のお知らせ",
+        
+          title: "新サイト開設のお知らせ",
+        
+        description: "Google SitesからGitHubへの移行と、現在の更新状況について",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/Renewal/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
