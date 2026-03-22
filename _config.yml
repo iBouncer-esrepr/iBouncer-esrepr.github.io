@@ -7,6 +7,9 @@ first_name: Yu
 middle_name: 
 last_name: Saito
 contact_note: >
+  **Academic:** y-saito[at]kanagawa-u.ac.jp
+  **General:** y.saito.epr[at]gmail.com
+  
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -401,7 +404,7 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 # -----------------------------------------------------------------------------
 
 social:
-  email: y-saito[at]kanagawa-u.ac.jp, y.saito.epr[at]gmail.com
+  email: y-saito@kanagawa-u.ac.jp
   # リサーチ系のID
   orcid_id: 0000-0002-9108-4697       # ご自身の ORCID を入力
   google_scholar_id: ecXGuwMAAAAJ     # Google Scholar のプロフィールID
