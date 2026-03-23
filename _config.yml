@@ -85,7 +85,6 @@ search_enabled: false
   - title: CV
     url: /assets/pdf/example_pdf.pdf
 
-
 socials_in_search: true
 posts_in_search: true
 bib_search: true
