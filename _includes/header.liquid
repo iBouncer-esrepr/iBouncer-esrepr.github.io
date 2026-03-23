@@ -82,10 +82,10 @@
             {% endif %}
           {% endfor %}
 
-          {% if site.search_enabled %}
+         {% if site.search_enabled %}
             <li class="nav-item">
               <button id="search-toggle" title="Search" onclick="openSearchModal()">
-                <span class="nav-link">ctrl k <i class="fas fa-search"></i></span>
+                <span class="nav-link">ctrl k <i class="fa-solid fa-magnifying-glass"></i></span>
               </button>
             </li>
           {% endif %}
@@ -93,8 +93,8 @@
           {% if site.enable_darkmode %}
             <li class="toggle-container">
               <button id="light-toggle" title="Change theme">
-                <i class="fas fa-moon" id="light-toggle-dark"></i>
-                <i class="fas fa-sun" id="light-toggle-light"></i>
+                <i class="fa-solid fa-moon" id="light-toggle-dark"></i>
+                <i class="fa-solid fa-sun" id="light-toggle-light"></i>
               </button>
             </li>
           {% endif %}
