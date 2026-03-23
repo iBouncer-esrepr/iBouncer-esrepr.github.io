@@ -59,10 +59,12 @@ external_services:
 navbar_fixed: true
 footer_fixed: true
 search_enabled: false
+
 # -----------------------------------------------------------------------------
 # Navigation
 # -----------------------------------------------------------------------------
-- title: about
+navbar:
+  - title: about
     url: /
   - title: news
     url: /news/
@@ -72,7 +74,7 @@ search_enabled: false
     url: /publications/
   - title: projects
     url: /projects/
-  - title: More       # ← ドロップダウンの親メニュー名（任意に変更可）
+  - title: More
     sublinks:
       - title: books
         url: /books/
