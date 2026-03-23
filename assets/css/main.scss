@@ -37,3 +37,20 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
+
+/* ライトモード時のテーマ切り替えアイコンの色を強制指定 */
+html[data-theme='light'] #light-toggle-light {
+  color: #f39c12 !important; /* 鮮やかなオレンジ色 */
+}
+
+/* ダークモード時の月の色（念のため） */
+html[data-theme='dark'] #light-toggle-dark {
+  color: #f1c40f !important; /* 明るい黄色 */
+}
+
+/* 検索アイコンやテキストの色が消えている場合 */
+html[data-theme='light'] .nav-link, 
+html[data-theme='light'] #search-toggle {
+  color: #333 !important; /* 濃いグレー */
+}
+
