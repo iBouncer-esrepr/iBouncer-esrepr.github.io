@@ -62,20 +62,28 @@ search_enabled: false
 # -----------------------------------------------------------------------------
 # Navigation
 # -----------------------------------------------------------------------------
-navbar:
-  - title: about
+- title: about
     url: /
-  - title: info
+  - title: news
+    url: /news/
+  - title: blog
+    url: /blog/
+  - title: publications
+    url: /publications/
+  - title: projects
+    url: /projects/
+  - title: More       # ← ドロップダウンの親メニュー名（任意に変更可）
     sublinks:
+      - title: books
+        url: /books/
+      - title: profiles
+        url: /profiles/
       - title: repositories
         url: /repositories/
       - title: teaching
         url: /teaching/
-      - title: people
-        url: /people/
-  - title: blog
-    url: /blog/
-
+  - title: CV
+    url: /assets/pdf/example_pdf.pdf
 
 
 socials_in_search: true
