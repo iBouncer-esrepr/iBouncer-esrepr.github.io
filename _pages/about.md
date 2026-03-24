@@ -3,7 +3,6 @@ layout: about
 title: about
 permalink: /
 subtitle: Ph.D. in Engineering | Visiting Researcher at Kanagawa University
-social: true
 
 profile:
   align: right
@@ -14,7 +13,11 @@ profile:
     <p>Kawai Group, Research Institute for Integrated Science</p>
     <p>Kanagawa University</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+content:
+  news: true
+  selected_papers: true
+  all_publications: true
+  social: true      # これで写真の下にアイコンが出ます
 
 announcements:
   enabled: true
@@ -25,12 +28,7 @@ latest_posts:
   enabled: true
   scrollable: true
   limit: 3
-
-news: true
-selected_papers: true
-social: true
 ---
-
 ## Biography
 
 I am an experimental researcher specializing in **Magnetic Resonance**, with a focus on **Electron Spin Resonance (ESR/EPR)**. Throughout my career, I have consistently utilized "spin" as a primary tool to characterize complex systems, spanning from metallurgy and organic chemistry to condensed matter physics and quantum information science.
