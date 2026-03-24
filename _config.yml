@@ -423,13 +423,10 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 # -----------------------------------------------------------------------------
 
 social:
-  email: y-saito@kanagawa-u.ac.jp
-  # リサーチ系のID
+  email: y-saito@kanagawa-u.ac.jp     # リサーチ系のID
   orcid_id: 0000-0002-9108-4697       # ご自身の ORCID を入力
   google_scholar_id: ecXGuwMAAAAJ     # Google Scholar のプロフィールID
-  researchgate_id: Yu-Saito
-  
-  # その他のSNS
+  researchgate_id: Yu-Saito           # その他のSNS
   github_username: ibouncer-esrepr
   linkedin_username: 佑-yu-齋藤-saito-b537a588
   twitter_username: Y_Saito_Bouncer
