@@ -426,7 +426,7 @@ social:
   orcid_id: 0000-0002-9108-4697
   google_scholar_id: ecXGuwMAAAAJ
   researchgate_id: Yu-Saito
-  linkedin_username: yu-saito-b537a588
+  linkedin: yu-saito-b537a588
   twitter_username: Y_Saito_Bouncer
   github_username: ibouncer-esrepr
   email: y-saito@kanagawa-u.ac.jp
@@ -725,7 +725,7 @@ social:
   orcid_id: 0000-0002-9108-4697
   researchgate_id: Yu-Saito
   github_username: ibouncer-esrepr
-  linkedin_username: yu-saito-b537a588
+  linkedin: yu-saito-b537a588
   twitter_username: Y_Saito_Bouncer
   x_username: Y_Saito_Bouncer  # Twitterが表示されない場合はこれも追加
 
