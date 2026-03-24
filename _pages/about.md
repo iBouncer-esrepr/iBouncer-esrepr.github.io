@@ -49,10 +49,10 @@ Currently, I am exploring the integration of these multidisciplinary fields with
 ## Professional Experience
 
 * **Visiting Researcher** | Kanagawa University (Kawai Group)
-* **Researcher** | International Christian University (ICU, Shu Lab)
-* **Researcher** | Tokyo Institute of Technology (Science Tokyo, Arai Lab.)
+* **Postdoctoral Researcher** | International Christian University (ICU, Shu Lab)
+* **Postdoctoral Researcher** | Tokyo Institute of Technology (Science Tokyo, Arai Lab.)
 * **NEDO Project Researcher** | Sophia University (Polymer Science Lab.)
-* **Researcher** | Kobe University (Kyokugen)
+* **Lecturer (Research Fellow) / Research Support Specialist** | Kobe University (Kyokugen)
 
 <hr>
 
@@ -117,6 +117,30 @@ Currently, I am exploring the integration of these multidisciplinary fields with
 * ☕️ **Coffee**: Pour-over
 * 🚗 **Driving**: Hometown (Okitama) & Yamagata
 * 💻 **Mac & Open-source**: Apple Geek, Python
+
+<hr>
+
+### Social & Contact
+<div class="social-sidebar" style="font-size: 1.4rem; letter-spacing: 8px;">
+  <a href="mailto:y-saito@kanagawa-u.ac.jp" title="Email"><i class="fa-solid fa-envelope"></i></a>
+  
+  <a href="https://scholar.google.com/citations?user=ecXGuwMAAAAJ" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+  
+  <a href="https://orcid.org/0000-0002-9108-4697" title="ORCID"><i class="ai ai-orcid"></i></a>
+  
+  <a href="https://www.researchgate.net/profile/Yu-Saito" title="ResearchGate"><i class="ai ai-researchgate"></i></a>
+  
+  <a href="https://www.linkedin.com/in/yu-saito-b537a588" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+  
+  <a href="https://github.com/ibouncer-esrepr" title="GitHub"><i class="fa-brands fa-github"></i></a>
+  
+  <a href="https://x.com/Y_Saito_Bouncer" title="X"><i class="fa-brands fa-x-twitter"></i></a>
+  
+  <a href="{{ '/feed.xml' | relative_url }}" title="RSS Feed"><i class="fa-solid fa-rss"></i></a>
+
+  <div class="contact-note" style="font-size: 0.75rem; margin-top: 12px; line-height: 1.4; letter-spacing: normal;">
+    <strong>Academic:</strong> y-saito [at] kanagawa-u.ac.jp<br>
+    <strong>General:</strong> y.saito.epr [at] gmail.com
 
   </div>
 </div>
