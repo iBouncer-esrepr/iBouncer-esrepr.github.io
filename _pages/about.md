@@ -13,7 +13,8 @@ profile:
     <p>Kawai Group, Research Institute for Integrated Science</p>
     <p>Kanagawa University</p>
 
-social: true
+# エラー回避のため一旦falseにします。ビルド成功後に_config.ymlのSNS設定を確認してからtrueに戻してください。
+social: false
 
 # 標準の表示位置をオフにして、本文内の好きな場所に配置します
 news: false
@@ -57,10 +58,10 @@ Currently, I am exploring the integration of these multidisciplinary fields with
 ## Professional Experience
 
 * **Visiting Researcher** | Kanagawa University (Kawai Group)
-* **Researcher (Quantum Internet/Computing)** | International Christian University (ICU)
-* **Researcher (Quantum Sensing)** | Tokyo Institute of Technology (Science Tokyo)
+* **Researcher** | International Christian University (ICU)
+* **Researcher** | Tokyo Institute of Technology (Science Tokyo)
 * **Project Researcher (NEDO)** | Sophia University
-* **Researcher (Lecturer (Research Fellow) and Research Support Specialist)** | Kobe University
+* **Researcher** | Kobe University
 
 <hr>
 
