@@ -423,15 +423,15 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 # -----------------------------------------------------------------------------
 
 social:
-  orcid_id: 0000-0002-9108-4697
+  email: y-saito@kanagawa-u.ac.jp
   google_scholar_id: ecXGuwMAAAAJ
+  orcid_id: 0000-0002-9108-4697
   researchgate_id: Yu-Saito
   linkedin: yu-saito-b537a588
-  twitter_username: Y_Saito_Bouncer
   github_username: ibouncer-esrepr
-  email: y-saito@kanagawa-u.ac.jp
-  rss_icon: true # comment this line to hide the RSS icon    
-  # x_username: your-username # 最近のバージョンならこちら
+  # twitter_username: Y_Saito_Bouncer # 古いアイコンを使う場合
+  x_username: Y_Saito_Bouncer       # 新しいXアイコンを使う場合
+  rss_icon: true
 
 
 
@@ -714,18 +714,4 @@ jsonresume:
   - languages
   - interests
   - references
-
-# -----------------------------------------------------------------------------
-# Social integration
-# -----------------------------------------------------------------------------
-
-social:
-  email: y-saito@kanagawa-u.ac.jp
-  google_scholar_id: ecXGuwMAAAAJ
-  orcid_id: 0000-0002-9108-4697
-  researchgate_id: Yu-Saito
-  github_username: ibouncer-esrepr
-  linkedin: yu-saito-b537a588
-  twitter_username: Y_Saito_Bouncer
-  x_username: Y_Saito_Bouncer  # Twitterが表示されない場合はこれも追加
 
