@@ -78,7 +78,7 @@ navbar:
     sublinks:
       - title: books
         url: /books/
-      - title: profiles
+      - title: Members
         url: /profiles/
       - title: repositories
         url: /repositories/
