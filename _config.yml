@@ -713,3 +713,17 @@ jsonresume:
   - languages
   - interests
   - references
+
+# -----------------------------------------------------------------------------
+# Social (Regenerate)
+# -----------------------------------------------------------------------------
+social:
+  email: y-saito@kanagawa-u.ac.jp
+  google_scholar_id: ecXGuwMAAAAJ
+  orcid_id: 0000-0002-9108-4697
+  researchgate_id: Yu-Saito
+  github_username: ibouncer-esrepr
+  linkedin_username: yu-saito-b537a588
+  twitter_username: Y_Saito_Bouncer
+
+
