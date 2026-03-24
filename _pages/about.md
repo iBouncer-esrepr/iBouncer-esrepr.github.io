@@ -6,9 +6,9 @@ subtitle: Ph.D. in Engineering | Visiting Researcher at Kanagawa University
 
 profile:
   show: false # ここはfalseで正解です
-  align: right
-  image: prof_pic.jpg
-  image_circular: false
+  # align: right
+  # image: prof_pic.jpg
+  # image_circular: false
 
 social: false
 news: true # news.liquidを動かすために一応true
