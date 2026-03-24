@@ -4,24 +4,21 @@ title: about
 permalink: /
 subtitle: Ph.D. in Engineering | Visiting Researcher at Kanagawa University
 
-# 標準のプロフィール表示（自動浮き出し）をオフにして、手動で右カラムに入れます
 profile:
-  show: false 
+  show: false # ここはfalseで正解です
   align: right
   image: prof_pic.jpg
   image_circular: false
 
 social: false
-news: false
+news: true # news.liquidを動かすために一応true
 selected_papers: false
-last_posts: false
 ---
 
 <div class="row">
   <div class="col-sm-8" markdown="1">
 
 ## Biography
-
 I am an experimental researcher specializing in **Magnetic Resonance**, with a focus on **Electron Spin Resonance (ESR/EPR)**. Throughout my career, I have consistently utilized "spin" as a primary tool to characterize complex systems.
 
 My academic journey began at **Akita University**, where I studied **Inorganic Chemistry and Metallurgy**. I then moved to **Yamagata University** for my graduate studies (M.S. and Ph.D. in Engineering). During this time, I developed analytical protocols for **Reactive Oxygen Species (ROS)**, aiming for **ISO/JIS standardization**. 
@@ -47,18 +44,14 @@ In recent years, I have expanded my focus toward **Quantum Technology**, includi
   <div class="col-sm-4" markdown="1">
 
 ### Profile
-<div class="profile float-none w-100">
+<div class="my-profile" style="margin-bottom: 20px;">
   {% if page.profile.image %}
     {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-    {% include figure.liquid 
-       path=profile_image_path 
-       class="img-fluid z-depth-1 rounded" 
-       alt=page.profile.image 
-    %}
+    <img src="{{ profile_image_path | relative_url }}" class="img-fluid z-depth-1 rounded" style="width: 100%; height: auto;">
   {% endif %}
-  <div class="more-info" style="font-size: 0.9rem;">
-    <p>Visiting Researcher</p>
-    <p>Kawai Group, Kanagawa University</p>
+  <div class="info" style="font-size: 0.85rem; margin-top: 10px; line-height: 1.4;">
+    <strong>Visiting Researcher</strong><br>
+    Kawai Group, Kanagawa University
   </div>
 </div>
 
@@ -70,15 +63,31 @@ In recent years, I have expanded my focus toward **Quantum Technology**, includi
 <hr>
 
 ### Latest Posts
-{% include repository/repo_user.liquid %} 
-{% dynamic_repository "latest_posts" %}
+<div class="news">
+  {% if site.posts.size > 0 %}
+    <div class="table-responsive">
+      <table class="table table-sm table-borderless">
+      {% assign latest_posts = site.posts | sort: 'date' | reverse %}
+      {% for post in latest_posts limit: 3 %}
+        <tr>
+          <td>
+            <a href="{{ post.url | relative_url }}" style="color: var(--global-theme-color); font-weight: bold;">{{ post.title }}</a>
+          </td>
+        </tr>
+      {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>No posts yet.</p>
+  {% endif %}
+</div>
 
 <hr>
 
 ### Hobbies
 * ☕️ **Coffee**: Pour-over
-* 🚗 **Driving**: My hometown and Yamagata
-* 💻 **Mac and Open-source**: Apple Geek, Python
+* 🚗 **Driving**: Hometown (Okitama) & Yamagata
+* 💻 **Mac & Open-source**: Apple Geek, Python
 
   </div>
 </div>
