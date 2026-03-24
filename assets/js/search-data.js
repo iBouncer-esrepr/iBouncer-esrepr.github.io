@@ -84,18 +84,11 @@ ninja.data = [{
           section: "Teachings",handler: () => {
               window.location.href = "/teachings/introduction-to-machine-learning/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/example_pdf.pdf", "_blank");
-        },
-      },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79-%73%61%69%74%6F[%61%74]%6B%61%6E%61%67%61%77%61-%75.%61%63.%6A%70 %6F%72 %79.%73%61%69%74%6F.%65%70%72[%61%74]%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:%79-%73%61%69%74%6F@%6B%61%6E%61%67%61%77%61-%75.%61%63.%6A%70", "_blank");
         },
       },{
         id: 'social-rss',
@@ -110,13 +103,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=ecXGuwMAAAAJ", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
       id: 'light-theme',
