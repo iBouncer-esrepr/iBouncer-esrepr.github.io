@@ -99,8 +99,9 @@ Currently, I am exploring the integration of these multidisciplinary fields with
       {% assign latest_posts = site.posts | sort: 'date' | reverse %}
       {% for post in latest_posts limit: 3 %}
         <tr>
+          <th scope="row" style="width: 20%;">{{ post.date | date: "%b %-d, %Y" }}</th>
           <td>
-            <a href="{{ post.url | relative_url }}" style="color: var(--global-theme-color); font-weight: bold;">{{ post.title }}</a>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
           </td>
         </tr>
       {% endfor %}
