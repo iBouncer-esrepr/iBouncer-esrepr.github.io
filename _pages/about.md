@@ -3,6 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: Visiting Researcher at Kanagawa University
+social: true
 
 profile:
   align: right
