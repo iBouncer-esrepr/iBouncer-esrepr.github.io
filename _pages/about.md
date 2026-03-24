@@ -19,36 +19,65 @@ selected_papers: false
   <div class="col-sm-8" markdown="1">
 
 ## Biography
-I am an experimental researcher specializing in **Magnetic Resonance**, with a focus on **Electron Spin Resonance (ESR/EPR)**. Throughout my career, I have consistently utilized "spin" as a primary tool to characterize complex systems.
+I am an experimental researcher specializing in **Magnetic Resonance**, with a focus on **Electron Spin Resonance (ESR/EPR)**. Throughout my career, I have consistently utilized “spin” as a primary tool to characterize complex systems, spanning from metallurgy and organic chemistry to condensed matter physics and quantum information science.
 
-My academic journey began at **Akita University**, where I studied **Inorganic Chemistry and Metallurgy**. I then moved to **Yamagata University** for my graduate studies (M.S. and Ph.D. in Engineering). During this time, I developed analytical protocols for **Reactive Oxygen Species (ROS)**, aiming for **ISO/JIS standardization**. 
+My academic journey began at **Akita University**, where I studied **Inorganic Chemistry and Metallurgy**. I then moved to **Yamagata University** for my graduate studies (M.S. and Ph.D. in Engineering under Prof. Tateaki Ogata and Assoc. Prof. Tatsuro Kijima). During this time, I pivoted to **Organic Chemistry** and developed analytical protocols for **Reactive Oxygen Species (ROS)**, aiming for **ISO/JIS standardization**.
 
-Following my doctoral work, I focused on **Condensed Matter Physics** at **Kobe University**, conducting ESR studies under extreme conditions. I also served as a NEDO project researcher at **Sophia University**, investigating fuel cell degradation.
+Following my doctoral work, I focused on **Condensed Matter Physics** at **Kobe University** (Extreme Conditions Physics Group, under Prof. Ohta, Assoc. Prof. Okubo, Assoc. Prof. Ohmichi, Assist. Prof. Sakurai and Assist. Prof. Takahashi), conducting ESR studies under ultra-low temperatures, high frequencies, and high pressures. I also served as a NEDO project researcher at **Sophia University** under Prof. Fujita, Prof. Takeoka, and Prof. Rikukawa, investigating the degradation mechanisms of **Solid Polymer Fuel Cells (PEFCs)**.
 
-In recent years, I have expanded my focus toward **Quantum Technology**, including research on **Diamond NV Centers** at **Science Tokyo** and **Quantum Internet** at **ICU**. Currently, I am exploring the integration of these fields with **Machine Learning**.
+In recent years, I have expanded my focus toward the **quantum frontier**. This includes research on **Quantum Sensing with Diamond NV Centers** at **Tokyo Institute of Technology (now Institute of Science Tokyo)** under Assoc. Prof. Keigo Arai, and **Quantum Internet/Computing** using Lithium Niobate (LN) thin films at **International Christian University (ICU)** under Assoc. Prof. Rekishu Yamazaki.
+
+Currently, I am exploring the integration of these multidisciplinary fields with **Machine Learning** to develop next-generation sensing and material characterization techniques.
 
 <hr>
 
 ## Research Interests
-* **Magnetic Resonance:** Multi-frequency / High-field ESR, ROS analysis.
-* **Condensed Matter Physics:** Material properties under extreme environments.
-* **Quantum Technology:** Quantum sensing and Quantum Networking.
+* **Magnetic Resonance:** Multi-frequency / High-field ESR, ROS analysis, and protocol standardization (ISO/JIS).
+* **Condensed Matter Physics:** Material properties under extreme environments (Low Temp, High Mag, High Pressure).
+* **Quantum Technology:** Quantum sensing (NV centers) and Quantum Networking (LN-based).
+* **Informatics:** Integrating ESR spectroscopy with **Machine Learning** for predictive modeling.
 
 <hr>
+
+## Education
+* **Ph.D. in Engineering** | Yamagata University
+* **M.S. in Engineering** | Yamagata University
+* **B.S. in Engineering** | Akita University
+
+<hr>
+
+## Professional Experience
+
+* **Visiting Researcher** | Kanagawa University (Kawai Group)
+* **Researcher** | International Christian University (ICU, Shu Lab)
+* **Researcher** | Tokyo Institute of Technology (Science Tokyo, Arai Lab.)
+* **NEDO Project Researcher** | Sophia University (Polymer Science Lab.)
+* **Researcher** | Kobe University (Kyokugen)
+
+<hr>
+
+## Technical Skills
+
+<div class="skills">
+  <strong>Experimental:</strong> ESR, High-field Magnetometry, Diamond NV Sensing, LN Thin-film devices, Cryogenics.<br>
+  <strong>Computation/Workflow:</strong> Python, Machine Learning, LaTeX, Obsidian, Igor, MATLAB.<br>
+  <strong>Standards:</strong> Development of ISO/JIS Analytical Protocols.
+</div>
+
+<hr>
+
 
 ## Selected Publications
 {% include selected_papers.liquid %}
 
   </div>
 
-  <div class="col-sm-4" markdown="1">
+<div class="col-sm-4" markdown="1">
 
 ### Profile
 <div class="my-profile" style="margin-bottom: 20px;">
-  {% if page.profile.image %}
-    {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-    <img src="{{ profile_image_path | relative_url }}" class="img-fluid z-depth-1 rounded" style="width: 100%; height: auto;">
-  {% endif %}
+  <img src="{{ 'assets/img/prof_pic.jpg' | relative_url }}" class="img-fluid z-depth-1 rounded" style="width: 100%; height: auto;">
+  
   <div class="info" style="font-size: 0.85rem; margin-top: 10px; line-height: 1.4;">
     <strong>Visiting Researcher</strong><br>
     Kawai Group, Kanagawa University
