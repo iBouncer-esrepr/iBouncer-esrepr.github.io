@@ -716,8 +716,9 @@ jsonresume:
   - references
 
 # -----------------------------------------------------------------------------
-# Social (Regenerate)
+# Social integration
 # -----------------------------------------------------------------------------
+
 social:
   email: y-saito@kanagawa-u.ac.jp
   google_scholar_id: ecXGuwMAAAAJ
@@ -726,5 +727,5 @@ social:
   github_username: ibouncer-esrepr
   linkedin_username: yu-saito-b537a588
   twitter_username: Y_Saito_Bouncer
-
+  x_username: Y_Saito_Bouncer  # Twitterが表示されない場合はこれも追加
 
