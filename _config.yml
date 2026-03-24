@@ -393,7 +393,7 @@ external_links:
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
   widths:
     - 480
     - 800
@@ -423,13 +423,14 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 # -----------------------------------------------------------------------------
 
 social:
-  email: y-saito@kanagawa-u.ac.jp     # リサーチ系のID
-  orcid_id: 0000-0002-9108-4697       # ご自身の ORCID を入力
-  google_scholar_id: ecXGuwMAAAAJ     # Google Scholar のプロフィールID
-  researchgate_id: Yu-Saito           # その他のSNS
-  github_username: ibouncer-esrepr
-  linkedin_username: 佑-yu-齋藤-saito-b537a588
+  orcid_id: 0000-0002-9108-4697
+  google_scholar_id: ecXGuwMAAAAJ
+  researchgate_id: Yu-Saito
+  linkedin_username: yu-saito-b537a588
   twitter_username: Y_Saito_Bouncer
+  github_username: ibouncer-esrepr
+  email: y-saito@kanagawa-u.ac.jp
+  rss_icon: true # comment this line to hide the RSS icon    
   # x_username: your-username # 最近のバージョンならこちら
 
 
