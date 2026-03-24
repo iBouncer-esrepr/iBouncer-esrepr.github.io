@@ -25,6 +25,9 @@ latest_posts:
   enabled: true
   scrollable: true
   limit: 3
+  
+social: true
+
 ---
 
 ここに自己紹介文を書きます。
