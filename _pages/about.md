@@ -2,15 +2,16 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Visiting Researcher at Kanagawa University
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
-    <p>Visiting Researcher | Kawai Group, Research Institute for Integrated Science Kanagawa University</p>
-    <p>3-27-1 Rokukakubashi, Kanagawa-ku, Yokohama, Kanagawa, 221-8686</p>
+    <p>Visiting Researcher</p>
+    <p>Kawai Group, Research Institute for Integrated Science</p>
+    <p>Kanagawa University</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
