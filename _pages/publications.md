@@ -12,6 +12,7 @@ nav_order: 2
   <h2 class="year">Academic Journals</h2>
   {% bibliography -f papers -q @article %}
 
+  {% comment %}
   <h2 class="year">International Conferences</h2>
   {% bibliography -f papers -q @*[category=international]* %}
 
@@ -29,5 +30,6 @@ nav_order: 2
 
   <h2 class="year">Theses</h2>
   {% bibliography -f papers -q @*[type=thesis]* %}
+  {% endcomment %}
 
 </div>
