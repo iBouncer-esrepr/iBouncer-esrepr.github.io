@@ -7,14 +7,18 @@ nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
-{% include bib_search.liquid %}
-
 <div class="publications">
 
-{% bibliography %}
+  <h2 class="category">Journals</h2>
+  {% bibliography -f papers -q @article %}
+
+  <h2 class="category">International Conferences</h2>
+  {% bibliography -f papers -q @*[category=international]* %}
+
+  <h2 class="category">Domestic Conferences</h2>
+  {% bibliography -f papers -q @*[category=domestic]* %}
+
+  <h2 class="category">Grants & Outreach</h2>
+  {% bibliography -f papers -q @misc %}
 
 </div>
