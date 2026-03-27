@@ -41,31 +41,6 @@
       year: 2021 - 2023
       description: Degradation mechanisms of Solid Polymer Fuel Cells (PEFCs)
     - title: Research Support Specialist / Lecturer (Research Fellow)
-      institution: Kobe University, Molecular Photoscience Research Center / Cryogenic Division
+      institution: Kobe University
       year: 2017 - 2021
       description: ESR studies under extreme conditions (Low Temp, High Mag, High Pressure)
-    - title: Postdoctoral Researcher
-      institution: Yamagata University
-      year: 2015
-
-- title: Technical Skills
-  type: list
-  contents:
-    - "[Experimental] ESR/EPR (CW/Pulse), NMR, High-field Magnetometry, Diamond NV Sensing, LN Thin-film devices, Cryogenics (LHe/LN2 handling)"
-    - "[Computation] Python (uv, PySCF), MATLAB, Igor Pro, LaTeX, Markdown (Obsidian), Quantum Chemical Calculations (ORCA, Gaussian)"
-    - "[Standards] Development of ISO/JIS Analytical Protocols for ROS"
-
-- title: Awards
-  type: time_table
-  contents:
-    - title: Excellent Poster Award
-      institution: International Symposium for the 70th Anniversary of the Tohoku Branch of the CSJ
-      year: 2013
-
-- title: Academic Societies
-  type: list
-  contents:
-    - International ESR(EPR) Society (IES)
-    - The International Society of Magnetic Resonance (ISMAR)
-    - The Chemical Society of Japan
-    - The Society of Electron Spin Science and Technology (SEST)
