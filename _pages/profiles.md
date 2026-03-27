@@ -20,7 +20,7 @@ nav_order: 7
     <p>Kanagawa University / ICU</p>
     <p>Specializing in ESR/EPR and Quantum Sensing.</p>
     <p>
-      <a href="mailto:y.saito.epr@gmail.com">Email</a> | 
+      <a href="mailto:y-saito@kanagawa-u.ac.jp">Email</a> | 
       <a href="https://github.com/y-saito-epr">GitHub</a>
     </p>
   </div>
