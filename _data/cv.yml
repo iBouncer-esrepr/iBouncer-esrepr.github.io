@@ -1,84 +1,81 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Yu Saito (齋藤 佑), Ph.D.
-    - name: Pronouns
-      value: He/Him/His
-    - name: Location
-      value: Kawasaki, Kanagawa, Japan
-    - name: Email
-      value: y.saito.epr@gmail.com
-    - name: Institutional Email
-      value: y-saito@kanagawa-u.ac.jp
-    - name: Languages
-      value: Japanese (Native), English (Proficient)
+cv:
+  full_name: Yu Saito (齋藤 佑)
+  email: y.saito.epr@gmail.com
+  location: Kawasaki, Kanagawa, Japan
+  website: https://y-saito-epr.github.io/ # ご自身のGitHub PagesのURL
+  social_networks:
+    - network: LinkedIn
+      username: yu-saito
+    - network: GitHub
+      username: y-saito-epr # 実際のアカウント名に合わせてください
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Ph.D. in Engineering (Bioengineering)
-      institution: Yamagata University, Japan
-      year: 2012 - 2015
-      description: "Thesis: Studies on Individual Reactive Oxygen Species Generation Systems and Their Application to the Evaluation of Reactive Oxygen Scavenging Activity"
-    - title: Master of Engineering (Chemistry and Chemical Engineering)
-      institution: Yamagata University, Japan
-      year: 2008 - 2012
-    - title: Bachelor of Engineering (Materials Science and Engineering)
-      institution: Akita University, Japan
-      year: 2004 - 2008
+  sections:
+    education:
+      - institution: Yamagata University
+        area: Engineering (Bioengineering)
+        degree: Ph.D.
+        start_date: 2012-04
+        end_date: 2015-03
+        highlights:
+          - "Thesis: Studies on Individual Reactive Oxygen Species Generation Systems and Their Application to the Evaluation of Reactive Oxygen Scavenging Activity"
+      - institution: Yamagata University
+        area: Chemistry and Chemical Engineering
+        degree: Master of Engineering
+        start_date: 2008-04
+        end_date: 2012-03
+      - institution: Akita University
+        area: Materials Science and Engineering
+        degree: Bachelor of Engineering
+        start_date: 2004-04
+        end_date: 2008-03
 
-- title: Professional Experience
-  type: time_table
-  contents:
-    - title: Specially Appointed Postdoctoral Researcher (Shu Lab.)
-      institution: International Christian University (ICU)
-      year: 2024 - 2025
-      description: Moonshot Project (Quantum Internet/Computing)
-    - title: Special-appointed Postdoctoral Researcher (Arai Lab.)
-      institution: Tokyo Institute of Technology, School of Engineering
-      year: 2023 - 2024
-      description: Department of Electrical and Electronic Engineering
-    - title: Visiting Researcher (Kawai Group)
-      institution: Kanagawa University, Research Institute for Integrated Science
-      year: 2023 - Present
-    - title: PJPD Postdoctoral Fellow
-      institution: Sophia University, Faculty of Science and Technology
-      year: 2021 - 2023
-      description: Special-appointed NEDO Project Postdoctoral Fellow (PEFC degradation mechanisms)
-    - title: Research Support Specialist
-      institution: Kobe University, Cryogenic Division
-      year: 2019 - 2021
-    - title: Lecturer (Research Fellow)
-      institution: Kobe University, Molecular Photoscience Research Center
-      year: 2018 - 2019
-    - title: Research Support Specialist
-      institution: Kobe University, Cryogenic Division
-      year: 2017 - 2018
-    - title: Postdoctoral Researcher
-      institution: Yamagata University, Graduate School of Science and Engineering
-      year: 2015
-      description: Biochemical Engineering
+    experience:
+      - company: International Christian University (ICU)
+        position: Specially Appointed Postdoctoral Researcher (Shu Lab.)
+        start_date: 2024-04
+        end_date: 2025-03
+        highlights:
+          - Moonshot Project (Quantum Internet/Computing)
+      - company: Tokyo Institute of Technology
+        position: Special-appointed Postdoctoral Researcher (Arai Lab.)
+        start_date: 2023-04
+        end_date: 2024-03
+      - company: Kanagawa University
+        position: Visiting Researcher (Kawai Group)
+        start_date: 2023-04
+        end_date: present
+      - company: Sophia University
+        position: PJPD Postdoctoral Fellow
+        start_date: 2021-04
+        end_date: 2023-03
+        highlights:
+          - Special-appointed NEDO Project (PEFC degradation mechanisms)
 
-- title: Technical Proficiency
-  type: list
-  contents:
-    - "**Development**: Python (uv, PySCF), Markdown (Docling), LaTeX, GitHub Actions"
-    - "**Operating Systems**: macOS (Raycast, BTT), Windows, Linux"
-    - "**Advanced Software**: MATLAB, Igor Pro, Adobe Creative Cloud, VS Code / Cursor"
-    - "**Quantum Chemistry**: Gaussian, ORCA, WIEN2k, R, Mathematica, Julia"
+    technical_skills:
+      - label: Core Expertise
+        details: Electron Spin Resonance (ESR / EPR), NMR (Pulse sequences, T1/T2 analysis), Quantum Sensing
+      - label: Software & Tools
+        details: Python (uv, PySCF), MATLAB, Igor Pro, LaTeX, Docker, Docling
+      - label: Quantum Chemistry
+        details: Gaussian, ORCA, WIEN2k, R, Mathematica, Julia
 
-- title: Analytical Instrumentation
-  type: list
-  contents:
-    - "**Core Expertise**: Electron Spin Resonance (ESR / EPR), NMR (Pulse sequences, T1/T2 analysis)"
-    - "**Quantum Sensing**: Diamond NV Centers, Lithium Niobate (LN) thin-film devices"
-    - "**Cryogenics**: Liquid Helium/Nitrogen handling"
-    - "**Spectroscopy/Microscopy**: FT-IR, UV-Vis, XRD, ICP-MS, SEM, TEM"
-
-- title: Awards
-  type: time_table
-  contents:
-    - title: Excellent Poster Award
-      institution: International Symposium for the 70th Anniversary of the Tohoku Branch of the CSJ
-      year: 2013
+design:
+  theme: engineeringresumes # classicよりモダンなレイアウト
+  font: Latin Modern Serif # al-folioに近いセリフ体
+  font_size: 10pt
+  page_size: a4paper
+  color: "#2e3440" # al-folioのダークグレーに近い色
+  margins:
+    page:
+      top: 2cm
+      bottom: 2cm
+      left: 2cm
+      right: 2cm
+    section_title:
+      top: 0.3cm
+      bottom: 0.2cm
+    entry_area:
+      top: 0.1cm
+      bottom: 0.1cm
+  show_last_updated_date: true
+  header_font_size: 24pt
