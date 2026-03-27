@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-curriculum-vitae",
+          title: "Curriculum Vitae",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "post-新サイト開設のお知らせ",
         
           title: "新サイト開設のお知らせ",
