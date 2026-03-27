@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-cv",
-          title: "CV",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/_pages/cv/";
-          },
         },{id: "post-新サイト開設のお知らせ",
         
           title: "新サイト開設のお知らせ",
