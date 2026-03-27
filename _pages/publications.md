@@ -7,12 +7,13 @@ nav: true
 nav_order: 2
 ---
 
-{% assign scholar_userid = site.google_scholar_id %}
+{% assign original_scholar_id = site.scholar_userid %}
+{% assign site.scholar_userid = site.google_scholar_id %}
 
 <div class="publications">
-  {% if scholar_userid %}
+  {% if site.scholar_userid %}
   <div class="scholar-stats">
-    <a href="https://scholar.google.com/citations?user={{ scholar_userid }}" target="_blank">
+    <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank">
       <img src="https://img.shields.io/badge/Google%20Scholar-Citations-blue?style=flat&logo=google-scholar" alt="Google Scholar">
     </a>
     
