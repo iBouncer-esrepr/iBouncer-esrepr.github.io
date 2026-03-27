@@ -1,12 +1,11 @@
 ---
 layout: cv
+title: cv
 permalink: /cv/
-title: CV
 nav: true
-nav_order: 5
-cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+nav_order: 3
+cv_pdf: example_pdf.pdf  # assets/pdf/ 内にPDFがあればそのファイル名を指定
 ---
+
+## Research Interests Summary
+My research spans from metallurgy and organic chemistry to condensed matter physics and quantum information science, consistently utilizing **Electron Spin Resonance (ESR)** as a primary tool.
