@@ -8,15 +8,15 @@ nav_order: 7
 
 # Members
 
-## Postdoc Fellow <div style="display: flex; flex-wrap: wrap; margin-top: 20px;">
+## Postdoc Fellow <div style="display: flex; flex-wrap: wrap; margin-top: 20px; align-items: flex-start;">
   <div style="flex: 1; min-width: 250px; text-align: center;">
     <img src="/assets/img/prof_pic.jpg" 
          alt="Yu Saito" 
          style="width: 220px; 
-                height: 220px; 
-                object-fit: cover; 
-                border-radius: 8px; /* 角を少しだけ丸くして柔らかくします。完全な四角が良い場合は 0 にしてください */
-                box-shadow: 0 4px 8px rgba(0,0,0,0.1);"> </div>
+                height: auto; /* 縦横比を維持 */
+                border-radius: 4px; /* ほんの少しだけ角を丸く（不要なら 0 に） */
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* 軽い影 */">
+  </div>
   
   <div style="flex: 2; min-width: 300px; padding-left: 20px;">
     <h3>Yu Saito (齋藤 佑), Ph.D.</h3>
