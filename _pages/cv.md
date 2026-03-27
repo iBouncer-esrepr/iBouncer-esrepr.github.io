@@ -23,7 +23,7 @@ nav_order: 4
             </tr>
             <tr>
               <th scope="row">Email</th>
-              <td><a href="mailto:y.saito.epr@gmail.com">y.saito.epr@gmail.com</a></td>
+              <td><a href="mailto:y-saito@kanagawa-u.ac.jp">y-saito@kanagawa-u.ac.jp</a></td>
             </tr>
             <tr>
               <th scope="row">Phone</th>
