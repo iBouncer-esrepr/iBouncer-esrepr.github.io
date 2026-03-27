@@ -11,18 +11,15 @@ nav_order: 2
 {% assign site.scholar_userid = site.google_scholar_id %}
 
 <div class="publications">
-  {% if site.scholar_userid %}
-  <div class="scholar-stats">
-    <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank">
-      <img src="https://img.shields.io/badge/Google%20Scholar-Citations-blue?style=flat&logo=google-scholar" alt="Google Scholar">
+
+  <div class="scholar-stats" style="margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 20px;">
+    <a href="https://scholar.google.com/citations?user=ecXGuwMAAAAJ" target="_blank" style="text-decoration: none;">
+      <img src="https://img.shields.io/badge/Google%20Scholar-View%20Citations%20%26%20h--index-blue?style=for-the-badge&logo=google-scholar" alt="Google Scholar Analytics">
     </a>
-    
-    <div class="google-scholar-stats">
-      {% include google_scholar_stats.html %}
-    </div>
+    <p style="font-size: 0.85rem; color: #666; margin-top: 10px;">
+      Click the badge to view my latest citation metrics, including h-index and i10-index on Google Scholar.
+    </p>
   </div>
-  <br>
-  {% endif %}
   
   <h2 class="year">Academic Journals</h2>
   {% bibliography -f papers -q @article %}
