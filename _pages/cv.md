@@ -4,7 +4,7 @@ title: cv
 permalink: /cv/
 nav: true
 nav_order: 3
-cv_pdf: example_pdf.pdf  # assets/pdf/ 内にPDFがあればそのファイル名を指定
+# cv_pdf: example_pdf.pdf  # assets/pdf/ 内にPDFがあればそのファイル名を指定
 ---
 
 ## Research Interests Summary
