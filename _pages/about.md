@@ -86,6 +86,13 @@ Currently, I am exploring the integration of these multidisciplinary fields with
 
 <hr>
 
+<hr>
+
+### Research Metrics
+<div class="google-scholar-badge">
+  {% include google_scholar_badge.liquid %}
+</div>
+
 ### News
 {% include news.liquid %}
 
