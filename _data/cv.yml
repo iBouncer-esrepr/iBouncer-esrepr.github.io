@@ -2,12 +2,12 @@ cv:
   full_name: Yu Saito (齋藤 佑)
   email: y.saito.epr@gmail.com
   location: Kawasaki, Kanagawa, Japan
-  website: https://y-saito-epr.github.io/ # ご自身のGitHub PagesのURL
+  website: https://y-saito-epr.github.io/
   social_networks:
     - network: LinkedIn
       username: yu-saito
     - network: GitHub
-      username: y-saito-epr # 実際のアカウント名に合わせてください
+      username: y-saito-epr
 
   sections:
     education:
@@ -17,7 +17,7 @@ cv:
         start_date: 2012-04
         end_date: 2015-03
         highlights:
-          - "Thesis: Studies on Individual Reactive Oxygen Species Generation Systems and Their Application to the Evaluation of Reactive Oxygen Scavenging Activity"
+          - "Thesis: Studies on Individual Reactive Oxygen Species Generation Systems..."
       - institution: Yamagata University
         area: Chemistry and Chemical Engineering
         degree: Master of Engineering
@@ -31,25 +31,27 @@ cv:
 
     experience:
       - company: International Christian University (ICU)
-        position: Specially Appointed Postdoctoral Researcher (Shu Lab.)
+        position: Specially Appointed Postdoctoral Researcher
+        location: Tokyo, Japan
         start_date: 2024-04
         end_date: 2025-03
         highlights:
           - Moonshot Project (Quantum Internet/Computing)
       - company: Tokyo Institute of Technology
-        position: Special-appointed Postdoctoral Researcher (Arai Lab.)
+        position: Special-appointed Postdoctoral Researcher
+        location: Tokyo, Japan
         start_date: 2023-04
         end_date: 2024-03
       - company: Kanagawa University
-        position: Visiting Researcher (Kawai Group)
+        position: Visiting Researcher
+        location: Kanagawa, Japan
         start_date: 2023-04
         end_date: present
       - company: Sophia University
         position: PJPD Postdoctoral Fellow
+        location: Tokyo, Japan
         start_date: 2021-04
         end_date: 2023-03
-        highlights:
-          - Special-appointed NEDO Project (PEFC degradation mechanisms)
 
     technical_skills:
       - label: Core Expertise
@@ -60,22 +62,7 @@ cv:
         details: Gaussian, ORCA, WIEN2k, R, Mathematica, Julia
 
 design:
-  theme: engineeringresumes # classicよりモダンなレイアウト
-  font: Latin Modern Serif # al-folioに近いセリフ体
-  font_size: 10pt
+  theme: engineeringresumes
+  font: Latin Modern Serif
   page_size: a4paper
-  color: "#2e3440" # al-folioのダークグレーに近い色
-  margins:
-    page:
-      top: 2cm
-      bottom: 2cm
-      left: 2cm
-      right: 2cm
-    section_title:
-      top: 0.3cm
-      bottom: 0.2cm
-    entry_area:
-      top: 0.1cm
-      bottom: 0.1cm
-  show_last_updated_date: true
-  header_font_size: 24pt
+  color: "#2e3440"
