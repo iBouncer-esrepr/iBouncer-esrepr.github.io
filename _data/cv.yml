@@ -1,56 +1,85 @@
-cv:
-  name: Yu Saito
-  location: Kawasaki, Kanagawa, Japan
-  email: y-saito@kanagawa-u.ac.jp
-  phone: "+81-80-1847-9641"
-  website: https://ibouncer-esrepr.github.io/
-  social_networks:
-    - network: GitHub
-      username: ibouncer-esrepr
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Yu Saito (齋藤 佑)
+    - name: Location
+      value: Kawasaki, Kanagawa, Japan
+    - name: Email
+      value: y-saito@kanagawa-u.ac.jp
+    - name: Languages
+      value: Japanese (Native), English (Proficient)
 
-  sections:
-    summary:
-      - I am a researcher specializing in Electron Spin Resonance (ESR/EPR). My work spans metallurgy, organic chemistry, and quantum information science.
-    
-    education:
-      - institution: Yamagata University
-        area: Ph.D. in Engineering (Bioengineering)
-        degree: Doctor of Philosophy
-        date: Mar 2015
-      - institution: Yamagata University
-        area: Chemistry and Chemical Engineering
-        degree: Master of Engineering
-        date: Mar 2012
-      - institution: Akita University
-        area: Materials Science and Engineering
-        degree: Bachelor of Engineering
-        date: Mar 2008
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. in Engineering (Bioengineering)
+      institution: Yamagata University, Japan
+      year: 2012 - 2015
+      description: "Doctor of Philosophy. Thesis: Studies on Individual Reactive Oxygen Species Generation Systems and Their Application to the Evaluation of Reactive Oxygen Scavenging Activity"
+    - title: Master of Engineering (Chemistry and Chemical Engineering)
+      institution: Yamagata University, Japan
+      year: 2008 - 2012
+    - title: Bachelor of Engineering (Materials Science and Engineering)
+      institution: Akita University, Japan
+      year: 2004 - 2008
 
-    experience:
-      - company: International Christian University (ICU)
-        position: Specially Appointed Postdoctoral Researcher (Shu Lab.)
-        location: Mitaka, Tokyo
-        date: Aug 2024 – Nov 2025
-      - company: Tokyo Institute of Technology
-        position: Special-appointed Postdoctoral Researcher (Arai Lab.)
-        location: Meguro, Tokyo
-        date: Sep 2023 – Jul 2024
-      - company: Kanagawa University
-        position: Visiting Researcher (Kawai Group)
-        location: Yokohama, Kanagawa
-        date: Apr 2023 – Present
-      - company: Sophia University
-        position: PJPD Postdoctoral Fellow
-        location: Chiyoda, Tokyo
-        date: Jun 2021 – Jul 2023
+- title: Professional Experience
+  type: time_table
+  contents:
+    - title: Specially Appointed Postdoctoral Researcher (Shu Lab.)
+      institution: International Christian University (ICU)
+      year: 2024 - 2025
+      description: Moonshot Project (Quantum Internet/Computing)
+    - title: Special-appointed Postdoctoral Researcher (Arai Lab.)
+      institution: Tokyo Institute of Technology, School of Engineering
+      year: 2023 - 2024
+      description: Department of Electrical and Electronic Engineering
+    - title: Visiting Researcher (Kawai Group)
+      institution: Kanagawa University, Research Institute for Integrated Science
+      year: 2023 - Present
+    - title: PJPD Postdoctoral Fellow
+      institution: Sophia University, Faculty of Science and Technology
+      year: 2021 - 2023
+      description: Special-appointed NEDO Project Postdoctoral Fellow (PEFC degradation mechanisms)
+    - title: Research Support Specialist
+      institution: Kobe University, Cryogenic Division
+      year: 2019 - 2021
+    - title: Lecturer (Research Fellow)
+      institution: Kobe University, Molecular Photoscience Research Center
+      year: 2018 - 2019
+    - title: Research Support Specialist
+      institution: Kobe University, Cryogenic Division
+      year: 2017 - 2018
+    - title: Postdoctoral Researcher
+      institution: Yamagata University, Graduate School of Science and Engineering
+      year: 2015
+      description: Biochemical Engineering
+    - title: Research Assistant
+      institution: Yamagata University, Graduate School of Science and Engineering
+      year: 2012, 2013, 2014
+    - title: Project Science Instructional and Laboratory Assistant
+      institution: JST / Yonezawa City Board of Education
+      year: 2010, 2011, 2012
 
-    technical_skills:
-      - label: Experimental
-        details: ESR/EPR (CW/Pulse), NMR, Cryogenics (LHe/LN2), Diamond NV Sensing
-      - label: Computation
-        details: Python (uv, PySCF), MATLAB, Igor Pro, LaTeX
+- title: Technical Proficiency
+  type: list
+  contents:
+    - "**Operating Systems**: Mac (Power User), Windows (Advanced), Linux (Basic)"
+    - "**Advanced Software**: MATLAB, Igor Pro, Python, Microsoft Office, Adobe Illustrator, Photoshop"
+    - "**Quantum Chemistry & Analysis**: Gaussian, WIEN2k, ORCA, R, Mathematica, SciLab, Julia"
 
-    awards:
-      - date: Sep 2013
-        award: Excellent Poster Award
-        summary: International Symposium for the 70th Anniversary of the Tohoku Branch of the CSJ
+- title: Analytical Instrumentation
+  type: list
+  contents:
+    - "**Core Expertise**: Electron Spin Resonance (ESR / EPR)"
+    - "**Spectroscopy/Chromatography**: NMR, HPLC, GC-MS, FT-IR, UV-Vis, XRD, ICP-MS/AES, ESI-MS"
+    - "**Microscopy**: TEM, SEM"
+    - "**Environment**: Cryogenics (LHe/LN2 handling), Diamond NV Sensing, LN Thin-film devices"
+
+- title: Awards
+  type: time_table
+  contents:
+    - title: Excellent Poster Award
+      institution: International Symposium for the 70th Anniversary of the Tohoku Branch of the CSJ
+      year: 2013
