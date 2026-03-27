@@ -85,7 +85,7 @@ navbar:
       - title: teaching
         url: /teaching/
   - title: CV
-    url: /assets/pdf/example_pdf.pdf
+    url: /cv/
 
 socials_in_search: true
 posts_in_search: true
