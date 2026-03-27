@@ -1,14 +1,15 @@
 ---
-layout: pages
+layout: page
 permalink: /people/
 title: Members
-description: members of the lab or group
-nav: false
+description: Members of the lab or group
+nav: true
 nav_order: 7
 ---
 
 <div class="post">
-  <div class="projects">
+
+  <article>
     <h2 class="category">Principal Investigator</h2>
     <hr>
     
@@ -18,12 +19,13 @@ nav_order: 7
           <img src="{{ '/assets/img/prof_pic.jpg' | relative_url }}" 
                alt="Yu Saito" 
                class="img-fluid rounded-circle z-depth-1" 
-               style="width: 220px; height: 220px; object-fit: cover; border: 3px solid #f8f9fa;">
+               style="width: 200px; height: 200px; object-fit: cover; border: 3px solid #f8f9fa;">
         </div>
         
         <div class="col-sm-8">
           <h3 class="font-weight-bold">Yu Saito (齋藤 佑), Ph.D.</h3>
           <h5 class="text-muted">Visiting Researcher</h5>
+          
           <p class="mt-3">
             <strong>Affiliation:</strong><br>
             Research Institute for Integrated Science, Kanagawa University (Kawai Group)<br>
@@ -37,14 +39,13 @@ nav_order: 7
           </p>
 
           <div class="social" style="font-size: 1.5rem;">
-            <div class="contact-icons">
-              <a href="mailto:y.saito.epr@gmail.com"><i class="fas fa-envelope"></i></a>
-              <a href="https://github.com/y-saito-epr" target="_blank" class="ml-3"><i class="fab fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/yu-saito" target="_blank" class="ml-3"><i class="fab fa-linkedin"></i></a>
-            </div>
+            <a href="mailto:y.saito.epr@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://github.com/y-saito-epr" target="_blank" class="ml-3"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/yu-saito" target="_blank" class="ml-3"><i class="fab fa-linkedin"></i></a>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </article>
+
 </div>
