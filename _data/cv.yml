@@ -2,10 +2,14 @@
   type: map
   contents:
     - name: Full Name
-      value: Yu Saito (齋藤 佑)
+      value: Yu Saito (齋藤 佑), Ph.D.
+    - name: Pronouns
+      value: He/Him/His
     - name: Location
       value: Kawasaki, Kanagawa, Japan
     - name: Email
+      value: y.saito.epr@gmail.com
+    - name: Institutional Email
       value: y-saito@kanagawa-u.ac.jp
     - name: Languages
       value: Japanese (Native), English (Proficient)
@@ -16,7 +20,7 @@
     - title: Ph.D. in Engineering (Bioengineering)
       institution: Yamagata University, Japan
       year: 2012 - 2015
-      description: "Doctor of Philosophy. Thesis: Studies on Individual Reactive Oxygen Species Generation Systems and Their Application to the Evaluation of Reactive Oxygen Scavenging Activity"
+      description: "Thesis: Studies on Individual Reactive Oxygen Species Generation Systems and Their Application to the Evaluation of Reactive Oxygen Scavenging Activity"
     - title: Master of Engineering (Chemistry and Chemical Engineering)
       institution: Yamagata University, Japan
       year: 2008 - 2012
@@ -55,27 +59,22 @@
       institution: Yamagata University, Graduate School of Science and Engineering
       year: 2015
       description: Biochemical Engineering
-    - title: Research Assistant
-      institution: Yamagata University, Graduate School of Science and Engineering
-      year: 2012, 2013, 2014
-    - title: Project Science Instructional and Laboratory Assistant
-      institution: JST / Yonezawa City Board of Education
-      year: 2010, 2011, 2012
 
 - title: Technical Proficiency
   type: list
   contents:
-    - "**Operating Systems**: Mac (Power User), Windows (Advanced), Linux (Basic)"
-    - "**Advanced Software**: MATLAB, Igor Pro, Python, Microsoft Office, Adobe Illustrator, Photoshop"
-    - "**Quantum Chemistry & Analysis**: Gaussian, WIEN2k, ORCA, R, Mathematica, SciLab, Julia"
+    - "**Development**: Python (uv, PySCF), Markdown (Docling), LaTeX, GitHub Actions"
+    - "**Operating Systems**: macOS (Raycast, BTT), Windows, Linux"
+    - "**Advanced Software**: MATLAB, Igor Pro, Adobe Creative Cloud, VS Code / Cursor"
+    - "**Quantum Chemistry**: Gaussian, ORCA, WIEN2k, R, Mathematica, Julia"
 
 - title: Analytical Instrumentation
   type: list
   contents:
-    - "**Core Expertise**: Electron Spin Resonance (ESR / EPR)"
-    - "**Spectroscopy/Chromatography**: NMR, HPLC, GC-MS, FT-IR, UV-Vis, XRD, ICP-MS/AES, ESI-MS"
-    - "**Microscopy**: TEM, SEM"
-    - "**Environment**: Cryogenics (LHe/LN2 handling), Diamond NV Sensing, LN Thin-film devices"
+    - "**Core Expertise**: Electron Spin Resonance (ESR / EPR), NMR (Pulse sequences, T1/T2 analysis)"
+    - "**Quantum Sensing**: Diamond NV Centers, Lithium Niobate (LN) thin-film devices"
+    - "**Cryogenics**: Liquid Helium/Nitrogen handling"
+    - "**Spectroscopy/Microscopy**: FT-IR, UV-Vis, XRD, ICP-MS, SEM, TEM"
 
 - title: Awards
   type: time_table
