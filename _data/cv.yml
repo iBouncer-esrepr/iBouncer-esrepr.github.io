@@ -2,7 +2,7 @@
   type: map
   contents:
     - name: Full Name
-      value: Yu Saito (齋藤 佑)
+      value: Yu Saito (齋藤 佑), Ph.D.
     - name: Pronouns
       value: He/Him/His
     - name: Location
@@ -20,39 +20,49 @@
       year: 2024 - 2025
       description: Moonshot Project (Quantum Internet/Computing)
     - title: Special-appointed Postdoctoral Researcher
-      institution: Tokyo Institute of Technology
+      institution: Tokyo Institute of Technology, School of Engineering
       year: 2023 - 2024
+      description: Department of Electrical and Electronic Engineering
     - title: Visiting Researcher (Kawai Group)
-      institution: Kanagawa University
+      institution: Kanagawa University, Research Institute for Integrated Science
       year: 2023 - Present
     - title: PJPD Postdoctoral Fellow
-      institution: Sophia University
+      institution: Sophia University, Faculty of Science and Technology
       year: 2021 - 2023
       description: Special-appointed NEDO Project (PEFC degradation mechanisms)
     - title: Research Support Specialist / Lecturer
       institution: Kobe University
       year: 2017 - 2021
+      description: Cryogenic Division / Molecular Photoscience Research Center
     - title: Postdoctoral Researcher
       institution: Yamagata University
       year: 2015
+      description: Biochemical Engineering, Graduate School of Science and Engineering
 
 - title: Education
   type: time_table
   contents:
     - title: Ph.D. in Engineering (Bioengineering)
-      institution: Yamagata University
+      institution: Yamagata University, Japan
       year: 2012 - 2015
-      description: "Thesis: Studies on Individual Reactive Oxygen Species Generation Systems..."
-    - title: Master of Engineering
-      institution: Yamagata University
+      description: "Thesis: Studies on Individual Reactive Oxygen Species Generation Systems and Their Application to the Evaluation of Reactive Oxygen Scavenging Activity"
+    - title: Master of Engineering (Chemistry and Chemical Engineering)
+      institution: Yamagata University, Japan
       year: 2008 - 2012
-    - title: Bachelor of Engineering
-      institution: Akita University
+    - title: Bachelor of Engineering (Materials Science and Engineering)
+      institution: Akita University, Japan
       year: 2004 - 2008
 
 - title: Technical Proficiency
   type: list
   contents:
-    - "**Core Expertise**: Electron Spin Resonance (ESR / EPR), NMR, Quantum Sensing"
+    - "**Core Expertise**: Electron Spin Resonance (ESR / EPR), NMR (Pulse sequences, T1/T2 analysis), Quantum Sensing"
     - "**Software & Tools**: Python (uv, PySCF), MATLAB, Igor Pro, LaTeX, Docker, Docling"
     - "**Quantum Chemistry**: Gaussian, ORCA, WIEN2k, R, Mathematica, Julia"
+
+- title: Awards
+  type: time_table
+  contents:
+    - title: Excellent Poster Award
+      institution: International Symposium for the 70th Anniversary of the Tohoku Branch of the CSJ
+      year: 2013
