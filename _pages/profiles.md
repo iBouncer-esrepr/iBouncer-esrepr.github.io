@@ -17,8 +17,8 @@ nav_order: 7
   <div style="flex: 2; min-width: 300px; padding-left: 20px;">
     <h3>Yu Saito (齋藤 佑), Ph.D.</h3>
     <p><strong>Visiting Researcher</strong></p>
-    <p>Kanagawa University / ICU</p>
-    <p>Specializing in ESR/EPR and Quantum Sensing.</p>
+    <p>Kanagawa University</p>
+    <p>Specializing in ESR/EPR</p>
     <p>
       <a href="mailto:y-saito@kanagawa-u.ac.jp">Email</a> | 
       <a href="https://github.com/y-saito-epr">GitHub</a>
