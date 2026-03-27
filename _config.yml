@@ -79,7 +79,7 @@ navbar:
       - title: books
         url: /books/
       - title: Members
-        url: /profiles/
+        url: /people/
       - title: repositories
         url: /repositories/
       - title: teaching
