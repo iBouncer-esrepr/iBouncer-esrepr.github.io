@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "",
+          description: "Yu Saito&#39;s Curriculum Vitae",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
