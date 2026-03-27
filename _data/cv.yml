@@ -1,5 +1,5 @@
 cv:
-  full_name: Yu Saito (齋藤 佑)
+  name: Yu Saito (齋藤 佑)
   email: y.saito.epr@gmail.com
   location: Kawasaki, Kanagawa, Japan
   website: https://y-saito-epr.github.io/
@@ -55,7 +55,7 @@ cv:
 
     technical_skills:
       - label: Core Expertise
-        details: Electron Spin Resonance (ESR / EPR), NMR (Pulse sequences, T1/T2 analysis), Quantum Sensing
+        details: Electron Spin Resonance (ESR / EPR), NMR, Quantum Sensing
       - label: Software & Tools
         details: Python (uv, PySCF), MATLAB, Igor Pro, LaTeX, Docker, Docling
       - label: Quantum Chemistry
@@ -63,6 +63,3 @@ cv:
 
 design:
   theme: engineeringresumes
-  font: Latin Modern Serif
-  page_size: a4paper
-  color: "#2e3440"
