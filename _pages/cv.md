@@ -4,7 +4,8 @@ title: cv
 permalink: /cv/
 nav: true
 nav_order: 3
-# cv_pdf: example_pdf.pdf  # assets/pdf/ 内にPDFがあればそのファイル名を指定
+# cv.yml を無視して強制的に反映させるためのテスト用
+description: Yu Saito's Curriculum Vitae
 ---
 
 ## Research Interests Summary
