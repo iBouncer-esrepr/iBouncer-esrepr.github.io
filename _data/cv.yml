@@ -1,46 +1,56 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Yu Saito (齋藤 佑)
-    - name: Date of Birth
-      value: September 19, 1983
-    - name: Languages
-      value: Japanese (Native), English (Proficient)
+cv:
+  name: Yu Saito
+  location: Kawasaki, Kanagawa, Japan
+  email: y-saito@kanagawa-u.ac.jp
+  phone: "+81-80-1847-9641"
+  website: https://ibouncer-esrepr.github.io/
+  social_networks:
+    - network: GitHub
+      username: ibouncer-esrepr
 
-- title: Education
-  type: time_table
-  contents:
-    - title: Ph.D. in Engineering (Bioengineering)
-      institution: Yamagata University, Japan
-      year: 2012 - 2015
-      description: "Thesis: Studies on Individual Reactive Oxygen Species Generation Systems and Their Application to the Evaluation of Reactive Oxygen Scavenging Activity"
-    - title: Master of Engineering (Chemistry and Chemical Engineering)
-      institution: Yamagata University, Japan
-      year: 2008 - 2012
-    - title: Bachelor of Engineering (Materials Science and Engineering)
-      institution: Akita University, Japan
-      year: 2004 - 2008
+  sections:
+    summary:
+      - I am a researcher specializing in Electron Spin Resonance (ESR/EPR). My work spans metallurgy, organic chemistry, and quantum information science.
+    
+    education:
+      - institution: Yamagata University
+        area: Ph.D. in Engineering (Bioengineering)
+        degree: Doctor of Philosophy
+        date: Mar 2015
+      - institution: Yamagata University
+        area: Chemistry and Chemical Engineering
+        degree: Master of Engineering
+        date: Mar 2012
+      - institution: Akita University
+        area: Materials Science and Engineering
+        degree: Bachelor of Engineering
+        date: Mar 2008
 
-- title: Professional Experience
-  type: time_table
-  contents:
-    - title: Specially Appointed Postdoctoral Researcher
-      institution: International Christian University (ICU), Shu Lab.
-      year: 2024 - 2025
-      description: Moonshot Project (Quantum Internet/Computing)
-    - title: Special-appointed Postdoctoral Researcher
-      institution: Tokyo Institute of Technology (Science Tokyo), Arai Lab.
-      year: 2023 - 2024
-      description: Quantum Sensing with Diamond NV Centers
-    - title: Visiting Researcher
-      institution: Kanagawa University, Kawai Group
-      year: 2023 - Present
-    - title: PJPD Postdoctoral Fellow (NEDO Project)
-      institution: Sophia University, Polymer Science Lab.
-      year: 2021 - 2023
-      description: Degradation mechanisms of Solid Polymer Fuel Cells (PEFCs)
-    - title: Research Support Specialist / Lecturer (Research Fellow)
-      institution: Kobe University
-      year: 2017 - 2021
-      description: ESR studies under extreme conditions (Low Temp, High Mag, High Pressure)
+    experience:
+      - company: International Christian University (ICU)
+        position: Specially Appointed Postdoctoral Researcher (Shu Lab.)
+        location: Mitaka, Tokyo
+        date: Aug 2024 – Nov 2025
+      - company: Tokyo Institute of Technology
+        position: Special-appointed Postdoctoral Researcher (Arai Lab.)
+        location: Meguro, Tokyo
+        date: Sep 2023 – Jul 2024
+      - company: Kanagawa University
+        position: Visiting Researcher (Kawai Group)
+        location: Yokohama, Kanagawa
+        date: Apr 2023 – Present
+      - company: Sophia University
+        position: PJPD Postdoctoral Fellow
+        location: Chiyoda, Tokyo
+        date: Jun 2021 – Jul 2023
+
+    technical_skills:
+      - label: Experimental
+        details: ESR/EPR (CW/Pulse), NMR, Cryogenics (LHe/LN2), Diamond NV Sensing
+      - label: Computation
+        details: Python (uv, PySCF), MATLAB, Igor Pro, LaTeX
+
+    awards:
+      - date: Sep 2013
+        award: Excellent Poster Award
+        summary: International Symposium for the 70th Anniversary of the Tohoku Branch of the CSJ
