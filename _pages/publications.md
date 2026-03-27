@@ -8,7 +8,16 @@ nav_order: 2
 ---
 
 <div class="publications">
-
+  {% if site.scholar_userid %}
+  <div class="scholar-stats">
+    <div class="google-scholar-stats">
+      <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank">
+        <img src="https://img.shields.io/badge/Google%20Scholar-Citations-blue?style=flat&logo=google-scholar" alt="Google Scholar">
+      </a>
+      </div>
+  </div>
+  {% endif %}
+  
   <h2 class="year">Academic Journals</h2>
   {% bibliography -f papers -q @article %}
 
