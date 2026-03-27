@@ -5,6 +5,7 @@ title: Members
 description: members of the lab or group
 nav: false
 nav_order: 7
+---
 
 profiles:
   # if you want to include more than one profile, just replicate the following block
@@ -17,4 +18,4 @@ profiles:
       <p>Visiting Researcher</p>
       <p>Kawai Group, Research Institute for Integrated Science</p>
       <p>Kanagawa University</p>
----
+
