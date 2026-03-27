@@ -8,7 +8,8 @@ nav_order: 7
 
 # Members
 
-## Postdoc Fellow <div style="display: flex; flex-wrap: wrap; margin-top: 20px; align-items: flex-start;">
+## Postdoc Fellow
+<div style="display: flex; flex-wrap: wrap; margin-top: 20px; align-items: flex-start;">
   <div style="flex: 1; min-width: 250px; text-align: center;">
     <img src="/assets/img/prof_pic.jpg" 
          alt="Yu Saito" 
