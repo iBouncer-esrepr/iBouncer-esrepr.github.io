@@ -8,7 +8,7 @@ nav_order: 7
 
 # Members
 
-## Principal Investigator
+## Postdoc Fellow <!-- Principal Investigator -->
 
 <div style="display: flex; flex-wrap: wrap; margin-top: 20px;">
   <div style="flex: 1; min-width: 250px; text-align: center;">
