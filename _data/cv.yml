@@ -10,14 +10,72 @@ cv:
       username: y-saito-epr
 
   sections:
+    experience:
+      - company: International Christian University (ICU)
+        position: Specially Appointed Postdoctoral Researcher (Shu Lab.)
+        location: Tokyo, Japan
+        start_date: 2024-08
+        end_date: 2025-11
+        highlights:
+          - Moonshot Project (Quantum Internet/Computing)
+      - company: Tokyo Institute of Technology
+        position: Special-appointed Postdoctoral Researcher
+        location: Tokyo, Japan
+        start_date: 2023-09
+        end_date: 2024-07
+      - company: Kanagawa University
+        position: Visiting Researcher (Kawai Group)
+        location: Kanagawa, Japan
+        start_date: 2023-04
+        end_date: present
+      - company: Sophia University
+        position: PJPD Postdoctoral Fellow
+        location: Tokyo, Japan
+        start_date: 2021-06
+        end_date: 2023-07
+        highlights:
+          - Special-appointed NEDO Project (PEFC degradation mechanisms)
+      - company: Kobe University
+        position: Research Support Specialist (Cryogenic Division)
+        location: Hyogo, Japan
+        start_date: 2019-04
+        end_date: 2021-06
+      - company: Kobe University
+        position: Lecturer (Research Fellow)
+        location: Hyogo, Japan
+        start_date: 2018-10
+        end_date: 2019-03
+      - company: Kobe University
+        position: Research Support Specialist (Cryogenic Division)
+        location: Hyogo, Japan
+        start_date: 2017-03
+        end_date: 2018-09
+      - company: Yamagata University
+        position: Postdoctoral Researcher (Biochemical Engineering)
+        location: Yamagata, Japan
+        start_date: 2015-04
+        end_date: 2015-12
+      - company: Yamagata University
+        position: Research Assistant
+        location: Yamagata, Japan
+        start_date: 2012-05
+        end_date: 2014-05
+        highlights:
+          - "Engagement periods: May 2012, May 2013, May 2014"
+      - company: JST / Yonezawa City Board of Education
+        position: Project Science Instructional and Laboratory Assistant
+        location: Yamagata, Japan
+        start_date: 2010-05
+        end_date: 2012-05
+        highlights:
+          - "Engagement periods: May 2010, May 2011, May 2012"
+
     education:
       - institution: Yamagata University
         area: Engineering (Bioengineering)
         degree: Ph.D.
         start_date: 2012-04
         end_date: 2015-03
-        highlights:
-          - "Thesis: Studies on Individual Reactive Oxygen Species Generation Systems..."
       - institution: Yamagata University
         area: Chemistry and Chemical Engineering
         degree: Master of Engineering
@@ -28,30 +86,6 @@ cv:
         degree: Bachelor of Engineering
         start_date: 2004-04
         end_date: 2008-03
-
-    experience:
-      - company: International Christian University (ICU)
-        position: Specially Appointed Postdoctoral Researcher
-        location: Tokyo, Japan
-        start_date: 2024-04
-        end_date: 2025-03
-        highlights:
-          - Moonshot Project (Quantum Internet/Computing)
-      - company: Tokyo Institute of Technology
-        position: Special-appointed Postdoctoral Researcher
-        location: Tokyo, Japan
-        start_date: 2023-04
-        end_date: 2024-03
-      - company: Kanagawa University
-        position: Visiting Researcher
-        location: Kanagawa, Japan
-        start_date: 2023-04
-        end_date: present
-      - company: Sophia University
-        position: PJPD Postdoctoral Fellow
-        location: Tokyo, Japan
-        start_date: 2021-04
-        end_date: 2023-03
 
     technical_skills:
       - label: Core Expertise
