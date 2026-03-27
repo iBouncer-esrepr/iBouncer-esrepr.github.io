@@ -86,6 +86,15 @@ Currently, I am exploring the integration of these multidisciplinary fields with
 
 <hr>
 
+### Research Metrics
+<div class="scholar-stats" style="margin-bottom: 20px;">
+  <a href="https://scholar.google.com/citations?user=ecXGuwMAAAAJ" target="_blank">
+    <img src="https://img.shields.io/badge/Google%20Scholar-Citations%20%26%20Analytics-blue?style=flat&logo=google-scholar" alt="Google Scholar Analytics" style="max-width: 100%;">
+  </a>
+</div>
+
+<hr>
+
 ### News
 {% include news.liquid %}
 
