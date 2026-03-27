@@ -10,7 +10,8 @@ nav_order: 4
 
 <div class="cv-table" style="margin-top: 20px;">
   <strong>Email:</strong> y.saito.epr@gmail.com<br>
-  <strong>Location:</strong> Kawasaki, Kanagawa, Japan
+  <strong>Phone:</strong> +81-45-481-5661 <br>
+  <strong>Location:</strong> Yokohama, Kanagawa, Japan
 </div>
 
 <hr>
@@ -24,7 +25,9 @@ nav_order: 4
 | 2023 - Present | Visiting Researcher (Kawai Group) | Kanagawa University |
 | 2021 - 2023 | PJPD Postdoctoral Fellow | Sophia University |
 | 2017 - 2021 | Research Support Specialist / Lecturer | Kobe University |
-| 2015 | Postdoctoral Researcher | Yamagata University |
+| 2015 - 2017| Postdoctoral Researcher | Yamagata University |
+| 2012 - 2015| Research Assistant | Yamagata University |
+| 2010 - 2013| Project Science Instructional and Laboratory Assistant | Yonezawa City Board of Education | 
 
 <hr>
 
