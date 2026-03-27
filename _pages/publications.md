@@ -8,14 +8,17 @@ nav_order: 2
 ---
 
 <div class="publications">
-  {% if site.scholar_userid %}
+  {% if site.google_scholar_id %}
   <div class="scholar-stats">
+    <a href="https://scholar.google.com/citations?user={{ site.google_scholar_id }}" target="_blank">
+      <img src="https://img.shields.io/badge/Google%20Scholar-Citations-blue?style=flat&logo=google-scholar" alt="Google Scholar">
+    </a>
+    
     <div class="google-scholar-stats">
-      <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" target="_blank">
-        <img src="https://img.shields.io/badge/Google%20Scholar-Citations-blue?style=flat&logo=google-scholar" alt="Google Scholar">
-      </a>
-      </div>
+      {% include google_scholar_stats.html %}
+    </div>
   </div>
+  <br>
   {% endif %}
   
   <h2 class="year">Academic Journals</h2>
