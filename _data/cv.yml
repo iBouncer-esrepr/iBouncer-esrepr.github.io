@@ -1,99 +1,58 @@
-cv:
-  name: Yu Saito (齋藤 佑)
-  email: y.saito.epr@gmail.com
-  location: Kawasaki, Kanagawa, Japan
-  website: https://y-saito-epr.github.io/
-  social_networks:
-    - network: LinkedIn
-      username: yu-saito
-    - network: GitHub
-      username: y-saito-epr
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Yu Saito (齋藤 佑)
+    - name: Pronouns
+      value: He/Him/His
+    - name: Location
+      value: Kawasaki, Kanagawa, Japan
+    - name: Email
+      value: y.saito.epr@gmail.com
+    - name: Languages
+      value: Japanese (Native), English (Proficient)
 
-  sections:
-    experience:
-      - company: International Christian University (ICU)
-        position: Specially Appointed Postdoctoral Researcher (Shu Lab.)
-        location: Tokyo, Japan
-        start_date: 2024-08
-        end_date: 2025-11
-        highlights:
-          - Moonshot Project (Quantum Internet/Computing)
-      - company: Tokyo Institute of Technology
-        position: Special-appointed Postdoctoral Researcher
-        location: Tokyo, Japan
-        start_date: 2023-09
-        end_date: 2024-07
-      - company: Kanagawa University
-        position: Visiting Researcher (Kawai Group)
-        location: Kanagawa, Japan
-        start_date: 2023-04
-        end_date: present
-      - company: Sophia University
-        position: PJPD Postdoctoral Fellow
-        location: Tokyo, Japan
-        start_date: 2021-06
-        end_date: 2023-07
-        highlights:
-          - Special-appointed NEDO Project (PEFC degradation mechanisms)
-      - company: Kobe University
-        position: Research Support Specialist (Cryogenic Division)
-        location: Hyogo, Japan
-        start_date: 2019-04
-        end_date: 2021-06
-      - company: Kobe University
-        position: Lecturer (Research Fellow)
-        location: Hyogo, Japan
-        start_date: 2018-10
-        end_date: 2019-03
-      - company: Kobe University
-        position: Research Support Specialist (Cryogenic Division)
-        location: Hyogo, Japan
-        start_date: 2017-03
-        end_date: 2018-09
-      - company: Yamagata University
-        position: Postdoctoral Researcher (Biochemical Engineering)
-        location: Yamagata, Japan
-        start_date: 2015-04
-        end_date: 2015-12
-      - company: Yamagata University
-        position: Research Assistant
-        location: Yamagata, Japan
-        start_date: 2012-05
-        end_date: 2014-05
-        highlights:
-          - "Engagement periods: May 2012, May 2013, May 2014"
-      - company: JST / Yonezawa City Board of Education
-        position: Project Science Instructional and Laboratory Assistant
-        location: Yamagata, Japan
-        start_date: 2010-05
-        end_date: 2012-05
-        highlights:
-          - "Engagement periods: May 2010, May 2011, May 2012"
+- title: Professional Experience
+  type: time_table
+  contents:
+    - title: Specially Appointed Postdoctoral Researcher (Shu Lab.)
+      institution: International Christian University (ICU)
+      year: 2024 - 2025
+      description: Moonshot Project (Quantum Internet/Computing)
+    - title: Special-appointed Postdoctoral Researcher
+      institution: Tokyo Institute of Technology
+      year: 2023 - 2024
+    - title: Visiting Researcher (Kawai Group)
+      institution: Kanagawa University
+      year: 2023 - Present
+    - title: PJPD Postdoctoral Fellow
+      institution: Sophia University
+      year: 2021 - 2023
+      description: Special-appointed NEDO Project (PEFC degradation mechanisms)
+    - title: Research Support Specialist / Lecturer
+      institution: Kobe University
+      year: 2017 - 2021
+    - title: Postdoctoral Researcher
+      institution: Yamagata University
+      year: 2015
 
-    education:
-      - institution: Yamagata University
-        area: Engineering (Bioengineering)
-        degree: Ph.D.
-        start_date: 2012-04
-        end_date: 2015-03
-      - institution: Yamagata University
-        area: Chemistry and Chemical Engineering
-        degree: Master of Engineering
-        start_date: 2008-04
-        end_date: 2012-03
-      - institution: Akita University
-        area: Materials Science and Engineering
-        degree: Bachelor of Engineering
-        start_date: 2004-04
-        end_date: 2008-03
+- title: Education
+  type: time_table
+  contents:
+    - title: Ph.D. in Engineering (Bioengineering)
+      institution: Yamagata University
+      year: 2012 - 2015
+      description: "Thesis: Studies on Individual Reactive Oxygen Species Generation Systems..."
+    - title: Master of Engineering
+      institution: Yamagata University
+      year: 2008 - 2012
+    - title: Bachelor of Engineering
+      institution: Akita University
+      year: 2004 - 2008
 
-    technical_skills:
-      - label: Core Expertise
-        details: Electron Spin Resonance (ESR / EPR), NMR, Quantum Sensing
-      - label: Software & Tools
-        details: Python (uv, PySCF), MATLAB, Igor Pro, LaTeX, Docker, Docling
-      - label: Quantum Chemistry
-        details: Gaussian, ORCA, WIEN2k, R, Mathematica, Julia
-
-design:
-  theme: engineeringresumes
+- title: Technical Proficiency
+  type: list
+  contents:
+    - "**Core Expertise**: Electron Spin Resonance (ESR / EPR), NMR, Quantum Sensing"
+    - "**Software & Tools**: Python (uv, PySCF), MATLAB, Igor Pro, LaTeX, Docker, Docling"
+    - "**Quantum Chemistry**: Gaussian, ORCA, WIEN2k, R, Mathematica, Julia"
