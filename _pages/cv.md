@@ -104,7 +104,7 @@ nav_order: 4
             <div class="row">
               <div class="col-md-3"><span class="badge font-weight-bold info-color-dark text-uppercase align-middle" style="min-width: 75px">2012 - 2015</span></div>
               <div class="col-md-9">
-                <h6 class="title font-weight-bold ml-1 ml-md-4">Ph.D. in Engineering</h6>
+                <h6 class="title font-weight-bold ml-1 ml-md-4">Ph.D. in Engineering (Bioengineering)</h6>
                 <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">Yamagata University, Japan</h6>
               </div>
             </div>
@@ -113,7 +113,7 @@ nav_order: 4
             <div class="row">
               <div class="col-md-3"><span class="badge font-weight-bold info-color-dark text-uppercase align-middle" style="min-width: 75px">2008 - 2012</span></div>
               <div class="col-md-9">
-                <h6 class="title font-weight-bold ml-1 ml-md-4">Master of Engineering</h6>
+                <h6 class="title font-weight-bold ml-1 ml-md-4">Master of Engineering (Chemistry and Chemical Engineering)</h6>
                 <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem;">Yamagata University, Japan</h6>
               </div>
             </div>
