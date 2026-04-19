@@ -4,6 +4,7 @@ title: Curriculum Vitae
 permalink: /cv/
 nav: true
 nav_order: 4
+cv_pdf: CV_YuSaito.pdf
 ---
 
 <div class="post">
