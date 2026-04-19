@@ -10,6 +10,9 @@ cv_pdf: CV_YuSaito.pdf
 <div class="post">
   <header class="post-header">
     <p class="post-description">Professional background and technical expertise of Yu Saito.</p>
+    <a href="{{ '/assets/pdf/CV_YuSaito.pdf' | relative_url }}" target="_blank" class="btn btn-outline-danger btn-sm ml-2">
+        <i class="fas fa-file-pdf"></i> Download PDF
+      </a>
   </header>
 
   <article>
